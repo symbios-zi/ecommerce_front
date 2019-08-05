@@ -46,4 +46,8 @@
     .topnav__container {
         background: #f0f0f0;
     }
+
+    .nav-item {
+        margin-right: 5px;
+    }
 </style>

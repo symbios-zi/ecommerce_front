@@ -19,11 +19,17 @@ module.exports = {
     loading: { color: '#3B8070' },
     css: [
         '~/node_modules/bootstrap/dist/css/bootstrap.css',
+        '~/node_modules/bootstrap/dist/css/bootstrap.css',
         '~/node_modules/vue-js-modal/dist/styles.css',
+        '~/node_modules/open-iconic/font/css/open-iconic-bootstrap.scss',
+        '~/assets/scss/common.scss'
     ],
     plugins: [
         { src: '~/plugins/vue-carousel.js', ssr: false },
-        { src: '~/plugins/modal.js', ssr: false }
+        { src: '~/plugins/modal.js', ssr: false },
+    ],
+    modules: [
+        '@nuxtjs/axios'
     ],
 
 

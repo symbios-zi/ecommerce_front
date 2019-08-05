@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="nav-link m-2 menu-item" v-on:click="show">Login</button>
+        <button class="btn-primary btn" v-on:click="show">Login</button>
         <modal name="login-modal" height="auto">
             <div class="modal-content">
                 <div class="modal-header">

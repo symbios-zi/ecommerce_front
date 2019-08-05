@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="nav-link m-2 menu-item" v-on:click="show">Register</button>
+        <button class="btn btn-primary" v-on:click="show">Register</button>
         <modal name="register-modal">
             <form action="">
                 <form>

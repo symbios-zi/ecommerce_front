@@ -8,7 +8,9 @@
                 <div class="row">
                 <aside class="col-md-3">
                     <nav>
-                        <div class="title">Catalog</div>
+                        <div class="title">Catalog
+                            <span class="oi oi-menu"></span>
+                        </div>
                         <ul>
                             <li>
                                 <a href="#">First category</a>
